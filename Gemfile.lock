@@ -96,7 +96,7 @@ DEPENDENCIES
   autotest-rails
   rails (= 3.0.1)
   rspec (= 2.0.1)
-  rspec-rails
+  rspec-rails (>= 2.0.0.beta.7)
   sqlite3-ruby (= 1.2.5)
   test_notifier
   webrat (= 0.7.1)

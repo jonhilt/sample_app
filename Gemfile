@@ -7,11 +7,11 @@ gem 'rails', '3.0.1'
 
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 gem 'test_notifier' 
-gem 'autotest'
-gem 'autotest-rails'
 
 group :development do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.0.0.beta.7'
+  gem 'autotest-rails'
+  gem 'autotest'
 end
 
 group :test do
@@ -40,3 +40,4 @@ end
 # group :development, :test do
 #   gem 'webrat'
 # end
+
